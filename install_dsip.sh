@@ -1,7 +1,6 @@
 #!/bin/sh
 # CentOS 7 install
 
-yum -y install git
 yum -y install python3
 python3 -m pip install --upgrade pip setuptools
 
