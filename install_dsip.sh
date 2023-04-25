@@ -9,6 +9,8 @@ echo "IF9fX18gICAgICAgICAgICAgICAgIF9fX18gICBfX19fXyAgICBfX19fXyBfX19fICAgX19fX1
 echo 
 echo
 
+yum -y install net-tools
+yum -y install git
 yum -y install python3
 python3 -m pip install --upgrade pip setuptools
 
