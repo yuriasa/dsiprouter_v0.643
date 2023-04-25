@@ -5,7 +5,7 @@ yum -y install python3
 python3 -m pip install --upgrade pip setuptools
 
 cd /opt/
-git clone https://github.com/yuriasa/dsiprouter_v0.643/raw/main/dsiprouter_v0643.tgz
+wget https://github.com/yuriasa/dsiprouter_v0.643/raw/main/dsiprouter_v0643.tgz
 tar -xzvf dsiprouter_v0643.tgz
 rm -rf dsiprouter_v0643.tgz
 
@@ -46,4 +46,3 @@ service kamailio restart
 service kamailio status
 service dsiprouter restart
 service dsiprouter status
-
