@@ -14,11 +14,14 @@ yum -y install git
 yum -y install python3
 python3 -m pip install --upgrade pip setuptools
 
-cd /opt/
-wget https://github.com/yuriasa/dsiprouter_v0.643/raw/main/dsiprouter_v0643.tgz
-tar -xzvf dsiprouter_v0643.tgz
-rm -rf dsiprouter_v0643.tgz
+#cd /opt/
+#wget https://github.com/yuriasa/dsiprouter_v0.643/raw/main/dsiprouter_v0643.tgz
+#tar -xzvf dsiprouter_v0643.tgz
+#rm -rf dsiprouter_v0643.tgz
 
+cd /opt/
+git clone git clone https://github.com/yuriasa/dsip.git
+mv dsip dsiprouter
 cd /opt/dsiprouter
 ./dsiprouter.sh install -all
 
