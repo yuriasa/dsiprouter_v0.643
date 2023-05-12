@@ -1,4 +1,4 @@
-# dSIPRouter v0.643 rebuilt version for BaseBS
+# dSIPRouter v0.643 rebuild version for BaseBS
 Support CentOS7 \
 yum -y install wget \
 cd /tmp \
